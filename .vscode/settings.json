@@ -1,0 +1,58 @@
+{
+  "files.autoSave": "off",
+  "files.associations": {
+    ".eslintrc": "json",
+    ".stylelintrc": "json",
+  },
+  "files.exclude": {
+    "**/node_modules/": true,
+    "**/yarn.lock": true,
+    "**/yarn-error.log/": true
+  },
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "stylelint.configFile": ".stylelintrc",
+  "stylelint.ignoreDisables": false,
+  "stylelint.packageManager": "yarn",
+  "stylelint.validate": [
+    "css"
+  ],
+  "[css]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.stylelint": true
+    }
+  },
+  "json.format.keepLines": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.suggest.insertMode": "replace",
+    "files.insertFinalNewline": true
+  },
+  "jest.autoRevealOutput": "off",
+  "eslint.format.enable": true,
+  "eslint.workingDirectories": [
+    "."
+  ],
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "typescript",
+  ],
+  "typescript.suggest.includeCompletionsForImportStatements": false,
+  "[typescript]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+    },
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+    },
+  },
+}
